@@ -94,7 +94,7 @@ data_total = data_parsed
 """
 IMPORT SETTINGS
 """
-settings =_parse_settings_to_settings_class(settings="/opt/pyenv/versions/PyskindoseEnv/lib/python3.8/site-packages/pyskindose/settings_example.json")
+settings =_parse_settings_to_settings_class(settings="settings_example.json")
 
     
 
@@ -190,7 +190,7 @@ with open('/srv/data/diagnostica/Pyskindose/DOSI_PSD.csv', mode='a', newline='')
                 elif  data_rot['PositionerSecondaryEndAngle_deg'][i]!=0 :
                     num_beams_s=(data['PositionerSecondaryEndAngle_deg'][i]-
                                  data['PositionerSecondaryAngle_deg'][i])
-                    num_beams=num_beams_s+180*(1-sign(num_beams_s)) #EB: mi serve perché devo aggiungere 360 solo se ho segno meno, se no non aggiungo niente       
+                    num_beams=num_beams_s+180*(1-sign(num_beams_s))       
                     data_rot['DoseAreaProduct_Gym2'][i]=data_rot['DoseAreaProduct_Gym2'][i]*div_ang/abs(num_beams)
                     data_rot['DoseRP_Gy'][i]=data_rot['DoseRP_Gy'][i]*div_ang/abs(num_beams)  
                     data_rot=data_rot.append(data_rot.loc[repeat(i,abs(int(num_beams/div_ang)-1))])                                                       

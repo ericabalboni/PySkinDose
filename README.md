@@ -2,12 +2,9 @@
 
 # pyskindose
 
-author: Max Hellström
+author: Erica Balboni; Sara Iacomino
 
-A python program for calculating 3D skin dose maps based on DICOM X-ray Radiation Dose Structured Reports.
+A python program for calculating 3D skin dose maps based on DICOM X-ray Radiation Dose Structured Reports and based on the original work of Max Hellstrom.
 
-Requires Python 3.8 or above. NB! Will soon be upgraded to require Python 3.10 or above.
+Requires Python 3.8.
 
-The documentation is under construction and can be found at [https://pyskindose/readthedocs.io](https://pyskindose.readthedocs.io)
-
-Stay tuned!

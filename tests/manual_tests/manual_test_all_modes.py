@@ -1,7 +1,0 @@
-import manual_test_calculate_dose_interactive
-import manual_test_calculate_dose_static
-import manual_test_plot_event
-import manual_test_plot_procedure
-import manual_test_plot_setup
-
-print("all modes executed")

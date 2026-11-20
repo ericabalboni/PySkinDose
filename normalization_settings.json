@@ -1,0 +1,108 @@
+{
+    "normalization_settings": [
+        {
+            "manufacturer": "Siemens",
+            "models": [
+                "AXIOM-Artis"
+            ],
+            "translation_offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation_direction": {
+                "x": "+",
+                "y": "+",
+                "z": "+"
+            },
+            "rotation_direction": {
+                "Ap1": "+",
+                "Ap2": "+",
+                "Ap3": "+",
+                "At1": "+",
+                "At2": "+",
+                "At3": "+"
+            },
+            "field_size_mode": "CFA",
+            "detector_side_length": 40
+        },
+        {
+            "manufacturer": "Philips",
+            "models": [
+                "Allura Clarity"
+            ],
+            "translation_offset": {
+                "x": 0,
+                "y": 106.5,
+                "z": -100
+            },
+            "translation_direction": {
+                "x": "+",
+                "y": "-",
+                "z": "+"
+            },
+            "rotation_direction": {
+                "Ap1": "+",
+                "Ap2": "-",
+                "Ap3": "+",
+                "At1": "+",
+                "At2": "+",
+                "At3": "+"
+            },
+            "field_size_mode": "ASD",
+            "detector_side_length": 40
+        },
+        {
+            "manufacturer": "Philips",
+            "models": [
+                "Azurion 7 M20"
+            ],
+            "translation_offset": {
+                "x": 0,
+                "y": 106.5,
+                "z": 15
+            },
+            "translation_direction": {
+                "x": "+",
+                "y": "-",
+                "z": "+"
+            },
+            "rotation_direction": {
+                "Ap1": "+",
+                "Ap2": "-",
+                "Ap3": "+",
+                "At1": "+",
+                "At2": "+",
+                "At3": "+"
+            },
+            "field_size_mode": "CFA",
+            "detector_side_length": 40
+        },
+        {
+            "manufacturer": "Philips Medical Systems",
+            "models": [
+                "Allura FD2020"
+            ],
+            "translation_offset": {
+                "x": 0.0,
+                "y": 100.0,
+                "z": -150.0
+            },
+            "translation_direction": {
+                "x": "+",
+                "y": "-",
+                "z": "+"
+            },
+            "rotation_direction": {
+                "Ap1": "+",
+                "Ap2": "-",
+                "Ap3": "+",
+                "At1": "+",
+                "At2": "+",
+                "At3": "+"
+            },
+            "field_size_mode": "CFA",
+            "detector_side_length": 40
+        }
+    ]
+}
